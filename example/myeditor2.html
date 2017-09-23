@@ -568,10 +568,28 @@
         </div>
     </div><span> </span>
 </script>
-<script type="text/javascript" src="../dist/field.js"></script>
-<script type="text/javascript" src="../dist/myplugins.js"></script>
-<script>
-    window.onload  = getSde;
+<script type="text/javascript">
+    var templates = [];
+    var sde;
+    window.onload = function() {
+        sde = new SDE({
+            id: "myEditor",
+            title: '', //自定义title
+            control_templates: templates,
+            toolbars: {
+                'sde-toolbar-editor': ['history', 'clipboard', 'fonts', 'paragraphs', 'styles'],
+                'sde-toolbar-insert': ['horizontal', 'spechars', 'link', 'img', 'map', 'code', 'table', 'formula', 'comment'],
+                'sde-toolbar-tables': ['table', 'blockmergecells'],
+                'sde-toolbar-views': ['directory', 'showcomment', 'preview'],
+                'sde-toolbar-tools': ['drafts', 'print', 'searchreplace', 'wordcount'],
+                'sde-toolbar-records': ['sdetemplate', 'sdecontrols'],
+                'sde-toolbar-store': ['sdetemplate', 'sdecontrols']
+            }
+        });
+
+    };
+
+
 </script>
 </body>
 
