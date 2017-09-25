@@ -1,0 +1,1212 @@
+[
+  {
+    "ID":"depCode",
+    "TYPE":"text",
+    "NAME":"骨伤科",
+    "TAG":"",
+    "DESCNAME":"骨伤科",
+    "VERIFYTYPE":"text",
+    "VALUE":"骨伤科",
+    "REQUIRED":0,
+    "READONLY":1,
+    "COLOR":"000000"
+  },
+   {
+     "ID":"bedNum",
+     "TYPE":"text",
+     "NAME":"床号",
+     "TAG":"",
+     "DESCNAME":"床号",
+     "VERIFYTYPE":"text",
+     "VALUE":"F00198",
+     "REQUIRED":0,
+     "READONLY":1,
+     "COLOR":"000000"
+   },
+   {
+      "ID": "patientName", 
+      "TYPE": "text", 
+      "NAME": "姓名", 
+      "TAG": "", 
+      "DESCNAME": "姓名", 
+      "VERIFYTYPE": "text", 
+      "VALUE": "张子栋", 
+      "REQUIRED": 0, 
+      "READONLY": 1, 
+      "COLOR": "000000"
+  },
+  {
+      "ID": "zyNum", 
+      "TYPE": "text", 
+      "NAME": "住院号", 
+      "TAG": "", 
+      "DESCNAME": "住院号", 
+      "VERIFYTYPE": "text", 
+      "VALUE": "000000001", 
+      "REQUIRED": 0, 
+      "READONLY": 1, 
+      "COLOR": "000000"
+  },
+  {
+      "ID": "patientName", 
+      "TYPE": "text", 
+      "NAME": "姓名", 
+      "TAG": "", 
+      "DESCNAME": "姓名", 
+      "VERIFYTYPE": "text", 
+      "VALUE": "张子栋", 
+      "REQUIRED": 0, 
+      "READONLY": 1, 
+      "COLOR": "000000"
+  },
+  {
+      "ID": "jobName", 
+      "TYPE": "select", 
+      "NAME": "职业", 
+      "TAG": "", 
+      "DESCNAME": "职业", 
+      "REQUIRED": 0, 
+      "FREEINPUT": 1, 
+      "COLOR": "000000", 
+      "VALUE": "码农", 
+      "TEXT": "码农", 
+      "REMOTEURL": "", 
+      "BINDINGDATA": [
+          {
+              "VALUE": "干部", 
+              "TEXT": "干部", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "工程师", 
+              "TEXT": "工程师", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "教师", 
+              "TEXT": "教师", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "律师", 
+              "TEXT": "律师", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "农民", 
+              "TEXT": "农民", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "工人", 
+              "TEXT": "工人", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "医生", 
+              "TEXT": "医生", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "学生", 
+              "TEXT": "学生", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "码农", 
+              "TEXT": "码农", 
+              "SELECTED": 1
+          }
+      ]
+  },
+  {
+      "ID": "patientSex", 
+      "TYPE": "select", 
+      "NAME": "性别", 
+      "TAG": "", 
+      "DESCNAME": "性别", 
+      "REQUIRED": 0, 
+      "FREEINPUT": 0, 
+      "COLOR": "000000", 
+      "VALUE": "未知", 
+      "TEXT": "未知", 
+      "REMOTEURL": "", 
+      "BINDINGDATA": [
+          {
+              "VALUE": "男", 
+              "TEXT": "男", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "女", 
+              "TEXT": "女", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "未知", 
+              "TEXT": "未知", 
+              "SELECTED": 1
+          }
+      ]
+  },
+  {
+      "ID": "birthArea", 
+      "TYPE": "select", 
+      "NAME": "出生地", 
+      "TAG": "", 
+      "DESCNAME": "出生地", 
+      "REQUIRED": 0, 
+      "FREEINPUT": 0, 
+      "COLOR": "000000", 
+      "VALUE": "上海", 
+      "TEXT": "上海", 
+      "REMOTEURL": "", 
+      "BINDINGDATA": [
+          {
+              "VALUE": "上海", 
+              "TEXT": "上海", 
+              "SELECTED": 1
+          }, 
+          {
+              "VALUE": "北京", 
+              "TEXT": "北京", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "广州", 
+              "TEXT": "广州", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "南宁", 
+              "TEXT": "南宁", 
+              "SELECTED": 0
+          }
+      ]
+  },
+  {
+      "ID": "patientAge", 
+      "TYPE": "text", 
+      "NAME": "年龄", 
+      "TAG": "", 
+      "DESCNAME": "年龄", 
+      "VERIFYTYPE": "text", 
+      "VALUE": "25", 
+      "REQUIRED": 0, 
+      "READONLY": 1, 
+      "COLOR": "000000"
+  },
+  {
+      "ID": "marriageState", 
+      "TYPE": "select", 
+      "NAME": "婚姻状况", 
+      "TAG": "", 
+      "DESCNAME": "婚姻状况", 
+      "REQUIRED": 0, 
+      "FREEINPUT": 0, 
+      "COLOR": "000000", 
+      "VALUE": "未婚", 
+      "TEXT": "未婚", 
+      "REMOTEURL": "", 
+      "BINDINGDATA": [
+          {
+              "VALUE": "已婚", 
+              "TEXT": "已婚", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "未婚", 
+              "TEXT": "未婚", 
+              "SELECTED": 1
+          }
+      ]
+  },
+  {
+      "ID": "InHospitalTime", 
+      "TYPE": "date", 
+      "NAME": "入院时间", 
+      "TAG": "", 
+      "DESCNAME": "入院时间", 
+      "MAX": "", 
+      "MIN": "", 
+      "FORMAT": "Y年m月d日H:i:S", 
+      "VALUE": "2017年05月11日12:00:00", 
+      "REQUIRED": 0, 
+      "READONLY": 0, 
+      "COLOR": "FF346A"
+  },
+  {
+      "ID": "patientNation", 
+      "TYPE": "select", 
+      "NAME": "民族", 
+      "TAG": "", 
+      "DESCNAME": "民族", 
+      "REQUIRED": 0, 
+      "FREEINPUT": 0, 
+      "COLOR": "000000", 
+      "VALUE": "汉族", 
+      "TEXT": "汉族", 
+      "REMOTEURL": "", 
+      "BINDINGDATA": [
+          {
+              "VALUE": "汉族", 
+              "TEXT": "汉族", 
+              "SELECTED": 1
+          }, 
+          {
+              "VALUE": "苗族", 
+              "TEXT": "苗族", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "回族", 
+              "TEXT": "回族", 
+              "SELECTED": 0
+          }, 
+          {
+              "VALUE": "蒙古族", 
+              "TEXT": "蒙古族", 
+              "SELECTED": 0
+          }
+      ]
+  },
+  {
+      "ID": "recordTime", 
+      "TYPE": "date", 
+      "NAME": "记录时间", 
+      "TAG": "", 
+      "DESCNAME": "记录时间", 
+      "MAX": "", 
+      "MIN": "", 
+      "FORMAT": "Y-m-d H:i:S", 
+      "VALUE": "2017-05-18 00:00:00", 
+      "REQUIRED": 0, 
+      "READONLY": 0, 
+      "COLOR": "8F83FF"
+  },  
+  {
+    "ID": "descPeople",
+    "TYPE": "select",
+    "NAME": "病史描述者",
+    "TAG": "",
+    "DESCNAME": "病史描述者",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "FF0808",
+    "VALUE": "哥哥",
+    "TEXT": "哥哥",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "父亲",
+        "TEXT": "父亲",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "母亲",
+        "TEXT": "母亲",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "哥哥",
+        "TEXT": "哥哥",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "姐姐",
+        "TEXT": "姐姐",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "弟弟",
+        "TEXT": "弟弟",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "儿子",
+        "TEXT": "儿子",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "姥爷",
+        "TEXT": "姥爷",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "simpleDiagnosis",
+    "TYPE": "text",
+    "NAME": "简要诊断",
+    "TAG": "",
+    "DESCNAME": "简要诊断",
+    "VERIFYTYPE": "text",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "FF8080"
+  },
+  {
+    "ID": "treatmentModality",
+    "TYPE": "select",
+    "NAME": "既往治疗方式",
+    "TAG": "",
+    "DESCNAME": "既往治疗方式",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "FF8080",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "手术",
+        "TEXT": "手术",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "放疗",
+        "TEXT": "放疗",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "化疗",
+        "TEXT": "化疗",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "靶向治疗",
+        "TEXT": "靶向治疗",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "综合治疗",
+        "TEXT": "综合治疗",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "symptom",
+    "TYPE": "select",
+    "NAME": "症状表现",
+    "TAG": "",
+    "DESCNAME": "症状表现",
+    "REQUIRED": 0,
+    "FREEINPUT": 1,
+    "COLOR": "FF8080",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "咳嗽",
+        "TEXT": "咳嗽",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "多痰",
+        "TEXT": "多痰",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "头晕",
+        "TEXT": "头晕",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "头疼",
+        "TEXT": "头疼",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "乏力",
+        "TEXT": "乏力",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "心胸气短",
+        "TEXT": "心胸气短",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "medicalHistory",
+    "TYPE": "text",
+    "NAME": "现病史",
+    "TAG": "",
+    "DESCNAME": "现病史",
+    "VERIFYTYPE": "text",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "000000"
+  },
+  {
+    "ID": "admissionMethod",
+    "TYPE": "select",
+    "NAME": "入院方式",
+    "TAG": "",
+    "DESCNAME": "入院方式",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "FF0808",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "门诊",
+        "TEXT": "门诊",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "急诊",
+        "TEXT": "急诊",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "preHospitalDiagnosis",
+    "TYPE": "select",
+    "NAME": "院前诊断",
+    "TAG": "",
+    "DESCNAME": "院前诊断",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "FF0808",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "急性支气管炎",
+        "TEXT": "急性支气管炎",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "肺气肿",
+        "TEXT": "肺气肿",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "肺结核",
+        "TEXT": "肺结核",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "肺尘",
+        "TEXT": "肺尘",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "jsState",
+    "TYPE": "select",
+    "NAME": "精神状态",
+    "TAG": "",
+    "DESCNAME": "精神状态",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "好",
+        "TEXT": "好",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "坏",
+        "TEXT": "坏",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "ysState",
+    "TYPE": "select",
+    "NAME": "饮食状态",
+    "TAG": "",
+    "DESCNAME": "饮食状态",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "好",
+        "TEXT": "好",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "一般",
+        "TEXT": "一般",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "差",
+        "TEXT": "差",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "dbState",
+    "TYPE": "select",
+    "NAME": "大便状态",
+    "TAG": "",
+    "DESCNAME": "大便状态",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "大便正常",
+        "TEXT": "大便正常",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "有便秘",
+        "TEXT": "有便秘",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "有腹泻",
+        "TEXT": "有腹泻",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "xbState",
+    "TYPE": "select",
+    "NAME": "小便状态",
+    "TAG": "",
+    "DESCNAME": "小便状态",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "小便正常",
+        "TEXT": "小便正常",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "尿少",
+        "TEXT": "尿少",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "无尿",
+        "TEXT": "无尿",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "夜尿繁多",
+        "TEXT": "夜尿繁多",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "tzState",
+    "TYPE": "select",
+    "NAME": "体重状况",
+    "TAG": "",
+    "DESCNAME": "体重状况",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "体重无变化",
+        "TEXT": "体重无变化",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "体重减轻",
+        "TEXT": "体重减轻",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "体重增加",
+        "TEXT": "体重增加",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "jkState",
+    "TYPE": "select",
+    "NAME": "健康状况",
+    "TAG": "",
+    "DESCNAME": "健康状况",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "良好",
+    "TEXT": "良好",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "良好",
+        "TEXT": "良好",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "一般",
+        "TEXT": "一般",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "差",
+        "TEXT": "差",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "jbState",
+    "TYPE": "select",
+    "NAME": "疾病状况",
+    "TAG": "",
+    "DESCNAME": "疾病状况",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有冠心病",
+        "TEXT": "否认有冠心病",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "承认有冠心病",
+        "TEXT": "承认有冠心病",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "gxyState",
+    "TYPE": "select",
+    "NAME": "高血压状况",
+    "TAG": "",
+    "DESCNAME": "高血压状况",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有高血压",
+        "TEXT": "否认有高血压",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "确认有高血压",
+        "TEXT": "确认有高血压",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "tnbState",
+    "TYPE": "select",
+    "NAME": "糖尿病状况",
+    "TAG": "",
+    "DESCNAME": "糖尿病状况",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "否认有糖尿病",
+    "TEXT": "否认有糖尿病",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有糖尿病",
+        "TEXT": "否认有糖尿病",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "确认有糖尿病",
+        "TEXT": "确认有糖尿病",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "bdyState",
+    "TYPE": "select",
+    "NAME": "鼻窦炎状态",
+    "TAG": "",
+    "DESCNAME": "鼻窦炎状态",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "",
+    "TEXT": "",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有鼻窦炎",
+        "TEXT": "否认有鼻窦炎",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "确认有鼻窦炎",
+        "TEXT": "确认有鼻窦炎",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "qtjbsInfo",
+    "TYPE": "text",
+    "NAME": "其他疾病史",
+    "TAG": "",
+    "DESCNAME": "其他疾病史",
+    "VERIFYTYPE": "text",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "000000"
+  },
+  {
+    "ID": "fjhState",
+    "TYPE": "select",
+    "NAME": "肺结核状态",
+    "TAG": "",
+    "DESCNAME": "肺结核状态",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "否认有肺结核",
+    "TEXT": "否认有肺结核",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有肺结核",
+        "TEXT": "否认有肺结核",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "确认有肺结核",
+        "TEXT": "确认有肺结核",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "gbsState",
+    "TYPE": "select",
+    "NAME": "肝病史",
+    "TAG": "",
+    "DESCNAME": "肝病史",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "否认有肝病史",
+    "TEXT": "否认有肝病史",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有肝病史",
+        "TEXT": "否认有肝病史",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "确认有肝病史",
+        "TEXT": "确认有肝病史",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "qtcrbState",
+    "TYPE": "text",
+    "NAME": "其他传染病",
+    "TAG": "",
+    "DESCNAME": "其他传染病",
+    "VERIFYTYPE": "text",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "000000"
+  },
+  {
+    "ID": "ywgmState",
+    "TYPE": "select",
+    "NAME": "药物过敏史",
+    "TAG": "",
+    "DESCNAME": "药物过敏史",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "否认有食物或者药物过敏史",
+    "TEXT": "否认有食物或者药物过敏史",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有食物或者药物过敏史",
+        "TEXT": "否认有食物或者药物过敏史",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "有药物、吸入物过敏史",
+        "TEXT": "有药物、吸入物过敏史",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "有食物过敏史",
+        "TEXT": "有食物过敏史",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "csAddress",
+    "TYPE": "select",
+    "NAME": "出生地",
+    "TAG": "",
+    "DESCNAME": "出生地",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "钓鱼岛",
+    "TEXT": "钓鱼岛",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "北京",
+        "TEXT": "北京",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "上海",
+        "TEXT": "上海",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "天津",
+        "TEXT": "天津",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "钓鱼岛",
+        "TEXT": "钓鱼岛",
+        "SELECTED": 1
+      }
+    ]
+  },
+  {
+    "ID": "jcjuAddress",
+    "TYPE": "select",
+    "NAME": "常住地",
+    "TAG": "",
+    "DESCNAME": "常住地",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "新加坡",
+    "TEXT": "新加坡",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "台湾",
+        "TEXT": "台湾",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "香港",
+        "TEXT": "香港",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "澳门",
+        "TEXT": "澳门",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "新加坡",
+        "TEXT": "新加坡",
+        "SELECTED": 1
+      }
+    ]
+  },
+  {
+    "ID": "xyState",
+    "TYPE": "select",
+    "NAME": "吸烟史",
+    "TAG": "",
+    "DESCNAME": "吸烟史",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "否认有吸烟史",
+    "TEXT": "否认有吸烟史",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "否认有吸烟史",
+        "TEXT": "否认有吸烟史",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "确认有吸烟史",
+        "TEXT": "确认有吸烟史",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "xyns",
+    "TYPE": "text",
+    "NAME": "吸烟年数",
+    "TAG": "",
+    "DESCNAME": "吸烟年数",
+    "VERIFYTYPE": "int",
+    "VALUE": "2",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "000000"
+  },
+  {
+    "ID": "twNum",
+    "TYPE": "text",
+    "NAME": "体温",
+    "TAG": "",
+    "DESCNAME": "体温",
+    "VERIFYTYPE": "float",
+    "VALUE": "33",
+    "REQUIRED": 0,
+    "READONLY": 1,
+    "COLOR": "FF0808"
+  },
+  {
+    "ID": "mbNum",
+    "TYPE": "text",
+    "NAME": "脉搏",
+    "TAG": "",
+    "DESCNAME": "脉搏",
+    "VERIFYTYPE": "int",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "FF0808"
+  },
+  {
+    "ID": "hxNum",
+    "TYPE": "text",
+    "NAME": "呼吸",
+    "TAG": "",
+    "DESCNAME": "呼吸",
+    "VERIFYTYPE": "int",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "FF0808"
+  },
+  {
+    "ID": "ssyNum",
+    "TYPE": "text",
+    "NAME": "收缩压",
+    "TAG": "",
+    "DESCNAME": "收缩压",
+    "VERIFYTYPE": "int",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "FF0808"
+  },
+  {
+    "ID": "szyNum",
+    "TYPE": "text",
+    "NAME": "舒张压",
+    "TAG": "",
+    "DESCNAME": "舒张压",
+    "VERIFYTYPE": "text",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "FF0808"
+  },
+  {
+    "ID": "sgNum",
+    "TYPE": "text",
+    "NAME": "身高",
+    "TAG": "",
+    "DESCNAME": "身高",
+    "VERIFYTYPE": "float",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "FF0808"
+  },
+  {
+    "ID": "tzNum",
+    "TYPE": "text",
+    "NAME": "体重",
+    "TAG": "",
+    "DESCNAME": "体重",
+    "VERIFYTYPE": "float",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "FF0808"
+  },
+  {
+    "ID": "fyState",
+    "TYPE": "select",
+    "NAME": "发育状况",
+    "TAG": "",
+    "DESCNAME": "发育状况",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "正常",
+    "TEXT": "正常",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "正常",
+        "TEXT": "正常",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "异常",
+        "TEXT": "异常",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "yyState",
+    "TYPE": "select",
+    "NAME": "营养",
+    "TAG": "",
+    "DESCNAME": "营养",
+    "REQUIRED": 0,
+    "FREEINPUT": 0,
+    "COLOR": "000000",
+    "VALUE": "良好",
+    "TEXT": "良好",
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "VALUE": "良好",
+        "TEXT": "良好",
+        "SELECTED": 1
+      },
+      {
+        "VALUE": "中等",
+        "TEXT": "中等",
+        "SELECTED": 0
+      },
+      {
+        "VALUE": "不良",
+        "TEXT": "不良",
+        "SELECTED": 0
+      }
+    ]
+  },
+  {
+    "ID": "jc",
+    "TYPE": "checkbox",
+    "NAME": "进餐",
+    "TAG": "",
+    "DESCNAME": "进餐",
+    "COLOR": "2821FF",
+    "VALUE": [
+      
+    ],
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "TEXT": "事物放在盘子上，在正常时间内完成就餐（10分）",
+        "VALUE": "事物放在盘子上，在正常时间内完成就餐",
+        "CHECKED": 0
+      },
+      {
+        "TEXT": "需要帮助或较长时间才能完成（5分）",
+        "VALUE": "需要帮助或较长时间才能完成",
+        "CHECKED": 0
+      }
+    ]
+  },
+  {
+    "ID": "time1",
+    "TYPE": "date",
+    "NAME": "时间1",
+    "TAG": "",
+    "DESCNAME": "时间1",
+    "MAX": "",
+    "MIN": "",
+    "FORMAT": "Y年m月d日",
+    "VALUE": "",
+    "REQUIRED": 0,
+    "READONLY": 0,
+    "COLOR": "000000"
+  },
+  {
+    "ID": "xs",
+    "TYPE": "checkbox",
+    "NAME": "修饰",
+    "TAG": "",
+    "DESCNAME": "修饰",
+    "COLOR": "000000",
+    "VALUE": [
+      
+    ],
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "TEXT": "独立完成各项（洗脸、刷牙、梳头） 5分",
+        "VALUE": "独立完成各项（洗脸、刷牙、梳头）",
+        "CHECKED": 0
+      }
+    ]
+  },
+  {
+    "ID": "xz",
+    "TYPE": "checkbox",
+    "NAME": "洗澡",
+    "TAG": "",
+    "DESCNAME": "洗澡",
+    "COLOR": "000000",
+    "VALUE": [
+      
+    ],
+    "REMOTEURL": "",
+    "BINDINGDATA": [
+      {
+        "TEXT": "可独立完成所有步骤 5分",
+        "VALUE": "可独立完成所有步骤",
+        "CHECKED": 0
+      }
+    ]
+  } 
+]

@@ -38,6 +38,7 @@ var  templates = [{
  **/
 function setMode(mode){
     sde.setMode(mode);
+    alert("已设置为"+mode+"模式！");
 }
 
 
@@ -140,6 +141,19 @@ SDE.Plugins.push({
             '</div>' +
             '</div>';
         div.appendChild(btn3);
+
+        var btn4 = document.createElement('div');
+        btn4.className = 'tab-content-item-panel';
+        btn4.innerHTML = ' <div class="tab-content-item-panel-label">get所有控件</div>' +
+            '<div class="tab-content-item-panel-content">' +
+            '<div style="float:left;">' +
+            '<div class="tab-content-item-panel-content-control" onclick="alert(JSON.stringify(sde.getControl()))" title="get所有控件">' +
+            '<div class="sde-icon sde-icon-emrdesign" style="width: 64px;height: 32px;"></div>' +
+            '<div style="text-align: center;">get所有控件</div>' +
+            ' </div>' +
+            '</div>' +
+            '</div>';
+        div.appendChild(btn4);
         return div;
     }
 });
