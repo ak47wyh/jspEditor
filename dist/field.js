@@ -1,12 +1,3 @@
-/**
- * Created by Administrator on 2017/9/23.
- */
-
-
-
-
-
-
 function saveDesign(reqData) {
     var content = "htmlBody="+encodeURIComponent(reqData);
     $.ajax({
@@ -20,4 +11,17 @@ function saveDesign(reqData) {
             alert(error);
         }
     });
+}
+/**
+ * 获取控件，后续用于保存
+ * @param sde
+ */
+function getFields(sde) {
+    var controls = sde.getControl();
+    for(var i = 0;i<controls.length;i++){
+        console.log(JSON.stringify(controls[i]));
+    }
+
+
+    // alert(JSON.stringify(sde.getControl()))
 }

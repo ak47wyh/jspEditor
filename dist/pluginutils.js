@@ -147,7 +147,7 @@ SDE.Plugins.push({
         btn4.innerHTML = ' <div class="tab-content-item-panel-label">get所有控件</div>' +
             '<div class="tab-content-item-panel-content">' +
             '<div style="float:left;">' +
-            '<div class="tab-content-item-panel-content-control" onclick="alert(JSON.stringify(sde.getControl()))" title="get所有控件">' +
+            '<div class="tab-content-item-panel-content-control" onclick="getFields(sde)" title="get所有控件">' +
             '<div class="sde-icon sde-icon-emrdesign" style="width: 64px;height: 32px;"></div>' +
             '<div style="text-align: center;">get所有控件</div>' +
             ' </div>' +
