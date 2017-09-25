@@ -25,3 +25,19 @@ function getFields(sde) {
 
     // alert(JSON.stringify(sde.getControl()))
 }
+
+function saveHtml(sde) {
+    $.getJSON("../data/field.json",function(data){
+        //alert(data);
+        var conrtrol = JSON.stringify(data[0]);
+        sde.html(conrtrol);
+    })
+
+}
+
+function getJson() {
+    $.getJSON("../data/field.json",function(data){
+        //alert(data);
+        return data;
+    })
+}

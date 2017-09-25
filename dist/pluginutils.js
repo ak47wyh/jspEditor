@@ -134,7 +134,7 @@ SDE.Plugins.push({
         btn3.innerHTML = ' <div class="tab-content-item-panel-label">另存页面</div>' +
             '<div class="tab-content-item-panel-content">' +
             '<div style="float:left;">' +
-            '<div class="tab-content-item-panel-content-control" onclick="alert(sde.html(\'\'))" title="另存页面">' +
+            '<div class="tab-content-item-panel-content-control" onclick="saveHtml(sde)" title="另存页面">' +
             '<div class="sde-icon sde-icon-emrdesign" style="width: 64px;height: 32px;"></div>' +
             '<div style="text-align: center;">另存页面</div>' +
             ' </div>' +
